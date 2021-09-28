@@ -2,6 +2,8 @@ import java.io.Serializable;
 
 public class User implements Serializable {
     
+    private static final serialVersionUID = 8882416210786165012L;
+    
     private String firstName;
     
     private String lastName;
